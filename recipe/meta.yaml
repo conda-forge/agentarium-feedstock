@@ -1,5 +1,5 @@
 {% set name = "agentarium" %}
-{% set version = "0.2.8" %}
+{% set version = "0.3.1" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/agentarium-{{ version }}.tar.gz
-  sha256: dd9398fe782374ac3dcb06fe96900a5b163cf963c3c8a6120139c62e947adc6c
+  sha256: 704899417a6893157efca0c643ba5c68f86b5af9aaa2ff0f0863a6c3a6d1beb4
 
 build:
   noarch: python
